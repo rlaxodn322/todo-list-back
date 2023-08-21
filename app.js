@@ -1,12 +1,13 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const bodyPaser = require("body-parser");
+const indexRouter = require("./routes/index");
 const port = 5000;
 const app = express();
 
 app.use(bodyPaser.json());
-
-const mongoURI = `mongodb://localhost:27017/todo-demo`;
+app.use("/api", indexRouter);
+const mongoURI = `mongodb://127.0.0.1:27017/todo-demo`;
 
 mongoose
   .connect(mongoURI, { useNewUrlParser: true })
