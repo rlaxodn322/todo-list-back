@@ -2,11 +2,14 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyPaser = require("body-parser");
 const indexRouter = require("./routes/index");
+const cors = require("cors");
 const port = 5000;
 const app = express();
 
 app.use(bodyPaser.json());
+app.use(cors());
 app.use("/api", indexRouter);
+
 const mongoURI = `mongodb://127.0.0.1:27017/todo-demo`;
 
 mongoose

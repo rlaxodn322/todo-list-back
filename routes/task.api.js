@@ -6,12 +6,8 @@ router.post("/tasks", taskController.createTask);
 
 router.get("/tasks", taskController.getTask);
 
-router.put("/tasks:/id", (req, res) => {
-  res.send("update task");
-});
+router.put("/tasks:/id", taskController.updateTask);
 
-router.delete("/tasks/:id", (req, res) => {
-  res.send("delete task");
-});
+router.delete("/tasks/:id", taskController.deleteTask);
 
 module.exports = router;
