@@ -5,4 +5,7 @@
 ![4](https://github.com/rlaxodn322/todo-list-back/assets/133329997/18274cef-136f-4523-9e02-db8ac57440c9)
 
 ## 프로젝트 목표
-##### 리액트 사용/ 회원가입 구현/ 로그인 구현/ mogoose 사용하여 user 정보 관리 /todo list CRUD 
+#####  / 회원가입 구현/ 로그인 구현/ mogoose 사용하여 user 정보 관리 /todo list CRUD 
+
+## 사용 언어 
+#### FE-React / BE-Node.js
