@@ -1,6 +1,6 @@
 ## Todo list 프로젝트
 ### 프로젝트 소개
-- 회원가입 구현
+- 회원가입 구현 (password 암호화 진행)
 - 로그인 구현
 - Moongoose 사용하여 user 정보 관리, 할 일 task 관리
 - todo list CRUD 
